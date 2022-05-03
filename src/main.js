@@ -8,6 +8,7 @@ function registerButton(newEmail, newPassword, newName, newPhone) {
     newName = document.getElementById('registerName').value
     newPhone = document.getElementById('registerPhone').value
     users.push({ email: newEmail, password: newPassword, name: newName, phone: newPhone })
+    alert("Conta criada com sucesso!")
 }
 
 function loginButton(email, password) {
@@ -19,10 +20,10 @@ function loginButton(email, password) {
                 document.getElementById('loginResult').innerHTML = 'Success!'
             return
         } else {
-            alert("wrong password")
+            alert("Senha errada")
              }
         }
     }
 
-  alert("wrong email")
+  alert("Email errado")
 }
