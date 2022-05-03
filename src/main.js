@@ -2,17 +2,19 @@ var users = [{}]
 
 //Registrar 
 
-function registerButton(newUsername, newPassword) {
-    newUsername = document.getElementById('registerEmail').value
+function registerButton(newEmail, newPassword, newName, newPhone) {
+    newEmail = document.getElementById('registerEmail').value
     newPassword = document.getElementById('registerPassword').value
-    users.push({ username: newUsername, password: newPassword })
+    newName = document.getElementById('registerName').value
+    newPhone = document.getElementById('registerPhone').value
+    users.push({ email: newEmail, password: newPassword, name: newName, phone: newPhone })
 }
 
-function loginButton(username, password) {
-    username = document.getElementById('loginEmail').value
+function loginButton(email, password) {
+    email = document.getElementById('loginEmail').value
     password = document.getElementById('loginPassword').value
         for (var i = 0; i < users.length; i++) {
-        if (username == users[i].username) {
+        if (email == users[i].email) {
             if (password == users[i].password) {
                 document.getElementById('loginResult').innerHTML = 'Success!'
             return
@@ -22,5 +24,5 @@ function loginButton(username, password) {
         }
     }
 
-  alert("wrong username")
+  alert("wrong email")
 }
