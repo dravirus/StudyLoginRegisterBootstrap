@@ -8,4 +8,4 @@ Pagina simples parar login e registro. A página não atualiza quando se cria co
 
 Utiliza Bootstrap e Jquery.
 
-Abra o index.html dentro da pasta src para ver a página e seus recursos, ou use o link (https://dravirus.github.io/StudyLoginRegisterBootstrap/src/index.html "Aqui") para checar o site diretamente (Bootstrap provavelmente não irá funcionar pelo Github Pages, ainda preciso checar uma forma de faze-lo funcionar).
+Abra o index.html dentro da pasta src para ver a página e seus recursos, ou use o link [disponivel aqui](https://dravirus.github.io/StudyLoginRegisterBootstrap/src/index.html) para checar o site diretamente (Bootstrap provavelmente não irá funcionar pelo Github Pages, ainda preciso checar uma forma de faze-lo funcionar).
